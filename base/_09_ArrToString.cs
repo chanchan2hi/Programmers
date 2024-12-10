@@ -10,6 +10,10 @@ namespace Programmers.Properties
             string answer = "";
             for(int i=0; i<arr.Length; i++)
                 answer+=arr[i].ToString();
+
+        //다른사람 풀이
+        //  answer = String.Join("", arr);
+        // string answer = string.Concat(arr);
             return answer;
         }
     }
